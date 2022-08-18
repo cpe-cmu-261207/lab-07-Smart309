@@ -107,7 +107,7 @@ export default function Home() {
         <p className="text-center fs-4">
           <span className="text-primary">All ({todos.length}) </span>
           <span className="text-warning">
-            Pending ({todos.filter((x) => x.completed === false).length})
+            Pending ({todos.filter((x) => x.completed === false).length}) 
           </span>
           <span className="text-success">
             Completed ({todos.filter((x) => x.completed === true).length})
